@@ -7,7 +7,7 @@ presidio-anonymizer>=2.2.33
 spacy>=3.6.0
 
 # Computer Vision for Face Detection
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 numpy>=1.24.0
 
 # Image Processing
@@ -22,11 +22,13 @@ pdf2image>=1.16.0
 # pytesseract>=0.3.10
 
 # Utility libraries
-python-dotenv>=1.0.0 pathlib>=1.0.0
+python-dotenv>=1.0.0
+pathlib>=1.0.0
 
 # Additional dependencies that might be needed
 transformers>=4.30.0  # For some presidio models
 torch>=2.0.0  # For advanced ML models
 
-# SpaCy model to install at build-time (avoids runtime download)
+# SpaCy model to install at build-time
 https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl
+
