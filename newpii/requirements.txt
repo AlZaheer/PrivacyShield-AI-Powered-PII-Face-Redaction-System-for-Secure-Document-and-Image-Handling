@@ -1,0 +1,36 @@
+# Core Streamlit application
+streamlit>=1.28.0
+
+# PII Detection and Anonymization
+presidio-analyzer>=2.2.33
+presidio-anonymizer>=2.2.33
+spacy>=3.6.0
+
+# Download the spacy model (you'll need to run: python -m spacy download en_core_web_sm)
+
+# Computer Vision for Face Detection
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0  # fitz
+pdf2image>=1.16.0
+
+# Optional: OCR for text in images (if needed)
+# pytesseract>=0.3.10
+
+# Utility libraries
+python-dotenv>=1.0.0
+pathlib>=1.0.0
+
+# Additional dependencies that might be needed
+transformers>=4.30.0  # For some presidio models
+torch>=2.0.0  # For advanced ML models
+
+# System dependencies (install via system package manager):
+# - poppler-utils (for pdf2image)
+# - tesseract-ocr (if using pytesseract)
